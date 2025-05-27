@@ -23,7 +23,18 @@ To write a Python code to create a class for a person with a parameterized const
 
 ### PROGRAM
 
-```
+``class person:
+    def __init__(self,a,b):
+        self.a=a
+        self.b=b
+        
+    def show(self):
+        print(self.b)
+        
+a=str(input())
+b=str(input())
+x=person(a,b)
+x.show()`
 
 ```
 
