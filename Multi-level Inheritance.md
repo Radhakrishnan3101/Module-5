@@ -1,5 +1,5 @@
 # Exp.No:24  
-## Multi-level Inheritance
+## PYTHON PROGRAM TO DISPLAY STUDENT DETAILS AND VALIDATE STUDENT ID
 
 ---
 
