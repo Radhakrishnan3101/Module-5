@@ -25,19 +25,28 @@ To write a Python code to create a class for a person with a parameterized const
 
 ``class person:
     def __init__(self,a,b):
-        self.a=a
-        self.b=b
+
+self.a=a
+
+self.b=b
         
-    def show(self):
-        print(self.b)
+ def show(self):
+ 
+print(self.b)
         
 a=str(input())
+
 b=str(input())
+
 x=person(a,b)
+
 x.show()`
 
-```
+
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/29cc9b91-8086-4064-a2d9-89d1a70b0cd4)
+
 
 ### RESULT
+Thus the python program was initiated and executed successfully.
