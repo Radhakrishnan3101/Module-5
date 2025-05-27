@@ -4,45 +4,77 @@
 ---
 
 ### AIM  
-To write a Python program to get the name, age, and ID of a person and display them using multilevel inheritance.
+To write a Python program to input student details such as student ID and name, display them using a tuple, and validate the student based on the ID.
 
 ---
 
 ### ALGORITHM
 
-1. Define the `Person` class:
-   - Inside the `Person` class, define the `__init__` method (constructor) with two parameters: `name` and `age`.
-   - Inside the `__init__` method, assign the `name` to `self.name` and `age` to `self.age`.
+Start the program.
 
-2. Define the `PersonDetails` class that inherits from the `Person` class:
-   - Inside the `PersonDetails` class, define the `__init__` method (constructor) with three parameters: `name`, `age`, and `person_id`.
-   - Inside the `__init__` method, call the `__init__` method of the `Person` class using `super()` to initialize `name` and `age`.
-   - Assign `person_id` to `self.person_id`.
+Define a class stu.
 
-3. Define the `DisplayDetails` class that inherits from the `PersonDetails` class:
-   - Inside the `DisplayDetails` class, define the `__init__` method (constructor) with three parameters: `name`, `age`, and `person_id`.
-   - Inside the `__init__` method, call the `__init__` method of the `PersonDetails` class using `super()` to initialize `name`, `age`, and `person_id`.
+In the constructor init():
 
-4. Inside the `DisplayDetails` class, define the `show_details` method:
-   - Inside the `show_details` method, return a formatted string with `self.name`, `self.age`, and `self.person_id`.
+Accept student ID (a) as integer input.
 
-5. Prompt the user to enter `name` (string), `age` (integer), and `person_id` (integer).
+Accept student name (b) as string input.
 
-6. Create an instance `person` of the `DisplayDetails` class, passing `name`, `age`, and `person_id` to the constructor.
+Define a method s1():
 
-7. Call the `show_details` method on the `person` object and print the result.
+Return a tuple containing the student ID and name.
 
-8. Terminate the program.
+Define another method s2():
+
+If student ID > 100000:
+
+Return "Valid Student".
+
+Else:
+
+Return "Invalid Student".
+
+Create an object x of class stu.
+
+Call s1() and s2() using the object and display both results using formatted output.
+
+End the program.
 
 ---
 
 ### PROGRAM
 
-```
+
+class stu:
+
+   def __init__(self):
+   
+ self.a = int(input())
+ 
+ self.b = input()
+        
+   def s1(self):
+    
+ return tuple([self.a, self.b])
+        
+   def s2(self):
+    
+   if self.a > 100000:
+   
+   return "Valid Student"
+   
+ else:
+ 
+   return "Invalid Student"
+            
+x = stu()
+
+print("{}  {}".format(x.s1(), x.s2()))
 
 
-```
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/21372605-d8d1-4ca5-8a75-dcc00a5c06bf)
 
 ### RESULT
+Thus the python program was initiated and implemented successfully.
