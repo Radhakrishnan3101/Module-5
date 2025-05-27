@@ -21,11 +21,29 @@ To create a Python class `Student` with a destructor.
 
 ### PROGRAM
 
-```
+class Awesome:
 
-```
+  # some method
+  
+   def greetings(self):
+   
+  print("My name is Vishvajit Rao and I am 22 years old.")
+
+    
+  def __del__(self):
+  
+  print("Vishvajit Rao student is deleted.")
+
+
+obj = Awesome()
+
+obj.greetings()
+
 
 ### OUTPUT
+![image](https://github.com/user-attachments/assets/4d12e5e5-2671-4789-9a41-58d39da87498)
+
 
 
 ### RESULT
+Thus the python program was initialised and executed successfully.
